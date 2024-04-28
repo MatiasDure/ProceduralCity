@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a5dcd2b9da8874ba8ddcc624266de1, type: 3}
+  m_Name: CarGeneratorData
+  m_EditorClassIdentifier: 
+  SpawnRandomCars: 1
+  CarPrefabs:
+  - {fileID: 4752486891109999061, guid: b3b5a7d1ee7f0c74890344719994939f, type: 3}
+  - {fileID: 5152673020207033794, guid: 0b1a67414dc5f5444bda89303ae7d847, type: 3}
+  - {fileID: 3286411020911355841, guid: 157613cb347032f47be204405506cfef, type: 3}
+  - {fileID: 1187017839482846904, guid: d8b8706363cae15419b9afd97818f9cb, type: 3}
+  - {fileID: 5899295575967950924, guid: 49c8f40e67fc3f245b35be789682206e, type: 3}
+  SpawnRate: 2

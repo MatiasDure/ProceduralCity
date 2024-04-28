@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02100e22a9085545bc42022e9e88605, type: 3}
+  m_Name: StreetPrefabs
+  m_EditorClassIdentifier: 
+  Streets:
+  - StreetModularMeshPrefab: {fileID: 1715545186758060696, guid: 7e45159b1e9cbbb479dd547738b34319,
+      type: 3}
+    YRotation: 0
+  - StreetModularMeshPrefab: {fileID: 320129506096644381, guid: 2c0c27d6722d08c41ad5571c4b68e5e4,
+      type: 3}
+    YRotation: 0
+  - StreetModularMeshPrefab: {fileID: 320129506096644381, guid: 2c0c27d6722d08c41ad5571c4b68e5e4,
+      type: 3}
+    YRotation: 180
+  - StreetModularMeshPrefab: {fileID: 1462662315568915187, guid: 722947b070e8758449c66b3fac8a5c2c,
+      type: 3}
+    YRotation: 0
+  - StreetModularMeshPrefab: {fileID: 320129506096644381, guid: 2c0c27d6722d08c41ad5571c4b68e5e4,
+      type: 3}
+    YRotation: 90
+  - StreetModularMeshPrefab: {fileID: 449166778458527482, guid: bd576859cd65c1648aec3d3dadf9bba0,
+      type: 3}
+    YRotation: 90
+  - StreetModularMeshPrefab: {fileID: 449166778458527482, guid: bd576859cd65c1648aec3d3dadf9bba0,
+      type: 3}
+    YRotation: 180
+  - StreetModularMeshPrefab: {fileID: 6985368175303566390, guid: 0986b205c8c792b4fb35b39ac65fb21d,
+      type: 3}
+    YRotation: 180
+  - StreetModularMeshPrefab: {fileID: 320129506096644381, guid: 2c0c27d6722d08c41ad5571c4b68e5e4,
+      type: 3}
+    YRotation: -90
+  - StreetModularMeshPrefab: {fileID: 449166778458527482, guid: bd576859cd65c1648aec3d3dadf9bba0,
+      type: 3}
+    YRotation: 0
+  - StreetModularMeshPrefab: {fileID: 449166778458527482, guid: bd576859cd65c1648aec3d3dadf9bba0,
+      type: 3}
+    YRotation: -90
+  - StreetModularMeshPrefab: {fileID: 6985368175303566390, guid: 0986b205c8c792b4fb35b39ac65fb21d,
+      type: 3}
+    YRotation: 0
+  - StreetModularMeshPrefab: {fileID: 1462662315568915187, guid: 722947b070e8758449c66b3fac8a5c2c,
+      type: 3}
+    YRotation: 90
+  - StreetModularMeshPrefab: {fileID: 6985368175303566390, guid: 0986b205c8c792b4fb35b39ac65fb21d,
+      type: 3}
+    YRotation: 90
+  - StreetModularMeshPrefab: {fileID: 6985368175303566390, guid: 0986b205c8c792b4fb35b39ac65fb21d,
+      type: 3}
+    YRotation: -90
+  - StreetModularMeshPrefab: {fileID: 9030003837225013203, guid: d0273ce00ad76f34f9995870a76a0247,
+      type: 3}
+    YRotation: 0

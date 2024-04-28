@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b38b9e944eca8744b21aba1555eff7a, type: 3}
+  m_Name: PrefabList
+  m_EditorClassIdentifier: 
+  Roofs:
+  - {fileID: 919132149155446097, guid: bc051391122002644940a244da2d3116, type: 3}
+  - {fileID: 919132149155446097, guid: 5ece0bd614bf13046965e83d69595d20, type: 3}
+  Windows:
+  - {fileID: 919132149155446097, guid: 3c4488ad27e93304783e4d50f250de08, type: 3}
+  - {fileID: 919132149155446097, guid: 7f846941eb20b2048ad2b5494e28fa42, type: 3}
+  - {fileID: 919132149155446097, guid: 85fa94f304f607f45aa6138d811dbb6b, type: 3}
+  - {fileID: 919132149155446097, guid: b0bbb1ab070d3dd4d97b64a3d45f930f, type: 3}
+  - {fileID: 919132149155446097, guid: c3ebd0c7e8c731344b1967021808486b, type: 3}
+  - {fileID: 919132149155446097, guid: 41953c5236d417d448957358c8a8f1bc, type: 3}
+  - {fileID: 919132149155446097, guid: 0fbed86669779364897327a66f6ab896, type: 3}
+  - {fileID: 919132149155446097, guid: 22cd3913f830d8b418744d781921c2ad, type: 3}
+  Doors:
+  - {fileID: 2267727987542917180, guid: 28f50429d4e243045abfeb1063b5bc69, type: 3}
+  - {fileID: 919132149155446097, guid: 5d938da53ece2bd42a949527b3ee6e74, type: 3}
+  - {fileID: 919132149155446097, guid: cd1a89a46cdb8024d98332416180a83b, type: 3}
+  - {fileID: 919132149155446097, guid: ba9bcb0f809c7e14b898b3f50569e68f, type: 3}
+  - {fileID: 919132149155446097, guid: 3149ff0cfb775924d8a75a8ff55501e5, type: 3}
+  - {fileID: 919132149155446097, guid: c57efa26c9d8e2f4ea106da0dc9374c5, type: 3}
