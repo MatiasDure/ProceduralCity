@@ -9,14 +9,18 @@ public class Building
     private Vector2Int _size;
     [SerializeField]
     private Wing _wing;
+    [SerializeField]
+    private BuildingType _typeBuilding;
 
     public Vector2Int Size { get => _size; set => _size = value; }
     public Wing BuildingWing { get => _wing; set => _wing = value; }
+    public BuildingType TypeBuilding { get => _typeBuilding; set => _typeBuilding = value; }
 
-    public Building(int pSizeX, int pSizeY, Wing pWing)
+    public Building(int pSizeX, int pSizeY, Wing pWing, BuildingType pBuildingType)
     {
         _size = new Vector2Int(pSizeX, pSizeY);
         _wing = pWing;
+        _typeBuilding = pBuildingType;
     }
 
     public override string ToString()

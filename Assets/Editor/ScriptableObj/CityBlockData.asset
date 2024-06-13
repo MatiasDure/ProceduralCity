@@ -13,4 +13,20 @@ MonoBehaviour:
   m_Name: CityBlockData
   m_EditorClassIdentifier: 
   Blocks:
-  - {fileID: 11400000, guid: e2f1f23d274cf9644bfa3a174f39191a, type: 2}
+  - {fileID: 11400000, guid: 04f74ac6cd102ee42a42ec601b2deaf5, type: 2}
+  - {fileID: 11400000, guid: aa5b085242fc8494fbb95e5dd20b2737, type: 2}
+  - {fileID: 11400000, guid: 07a94c5f38844844592b23e86627c0fd, type: 2}
+  - {fileID: 11400000, guid: 88418b7d1afe17c4ea6f696a43410dd6, type: 2}
+  - {fileID: 11400000, guid: ccdfdd4d05ef7b54b8829cdee5fa2743, type: 2}
+  - {fileID: 11400000, guid: eed744300bb083541b62e790c224abe3, type: 2}
+  - {fileID: 11400000, guid: 8b1390bea247e2243b6b9f025312d47e, type: 2}
+  - {fileID: 11400000, guid: dc62fc37a51fa5148a6c8359fe6aa5c0, type: 2}
+  - {fileID: 11400000, guid: 01594a4b039b98c4cba0762c22dc5dbe, type: 2}
+  - {fileID: 11400000, guid: 7edec33405bde3f4587b96cde0e40270, type: 2}
+  - {fileID: 11400000, guid: 13a23cc13135640468e025ff0d46d9f2, type: 2}
+  - {fileID: 11400000, guid: 0df918642ad4e594a90d6ee7bc0d2d86, type: 2}
+  - {fileID: 11400000, guid: f8d0eff4f8492214ea8745aa26439f6e, type: 2}
+  - {fileID: 11400000, guid: 810f283c6c4bb554b911b8821afa4ba5, type: 2}
+  - {fileID: 11400000, guid: fa0ed329a27e8ea4cb4cd5d41db559ba, type: 2}
+  - {fileID: 11400000, guid: d5fb6a510bc66da4190f542ac8313794, type: 2}
+  - {fileID: 11400000, guid: be6f0afdb5184fd4e8d17785065153b4, type: 2}

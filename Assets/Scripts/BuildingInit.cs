@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 
 public class BuildingInit : MonoBehaviour
@@ -28,7 +27,7 @@ public class BuildingInit : MonoBehaviour
 
     private void Update()
     {
-        if (_buildingList == null || _currentList == _buildingList) return;
+        if (_currentList == _buildingList || _buildingList == null) return;
         
         RenderCity(_buildingList);
     }
@@ -87,12 +86,29 @@ public class BuildingInit : MonoBehaviour
         //List<BuildingBlock> buildingBlocks = new List<BuildingBlock>();
         //List<Transform> buildingBlockss = new List<Transform>();
 
+        //foreach (BuildingBlock block in pListToRender.BuildingBlocks)
+        RenderBlock(pListToRender, newCity);
+        //{
+        //    Transform buildingBlock = new GameObject("building_block").transform;
+        //    buildingBlock.SetPositionAndRotation(block.Position, Quaternion.identity);
+        //    //buildingBlock.SetPositionAndRotation(block.Position, Quaternion.Euler(block.Rotation));
+        //    buildingBlock.SetParent(newCity);
+        //    foreach (Building building in block.Buildings)
+        //    {
+        //        _buildingRendering.RenderBuilding(building, buildingBlock);
+        //    }
+        //    buildingBlock.Rotate(block.Rotation);
+        //}
+    }
+
+    private void RenderBlock(BuildingList pListToRender, Transform pNewCity)
+    {
         foreach (BuildingBlock block in pListToRender.BuildingBlocks)
         {
             Transform buildingBlock = new GameObject("building_block").transform;
             buildingBlock.SetPositionAndRotation(block.Position, Quaternion.identity);
             //buildingBlock.SetPositionAndRotation(block.Position, Quaternion.Euler(block.Rotation));
-            buildingBlock.SetParent(newCity);
+            buildingBlock.SetParent(pNewCity);
             foreach (Building building in block.Buildings)
             {
                 _buildingRendering.RenderBuilding(building, buildingBlock);

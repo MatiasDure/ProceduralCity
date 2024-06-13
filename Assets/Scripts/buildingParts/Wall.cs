@@ -7,7 +7,7 @@ using UnityEngine;
 public enum Wall
 {
     Empty,
-    BigWindow,
-    SmallWindow,
+    GroundWindow,
+    HigherWindow,
     Door,
 }

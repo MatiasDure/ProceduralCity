@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde17a2178847f5458f59935321656a1, type: 3}
+  m_Name: Garage
+  m_EditorClassIdentifier: 
+  TypeBuilding: 5
+  StoriesRange: {x: 1, y: 1}
+  GroundWindowsPrefabs:
+  - {fileID: 314665895380045837, guid: 98a62d934925c854a94650d03c6fc753, type: 3}
+  HigherWindowsPrefabs: []
+  GroundDoorPrefabs:
+  - {fileID: 6990089520606281290, guid: 3a19974d31911334aa070f24a104a348, type: 3}
+  BalconyDoorPrefabs: []
+  BuildingMaterial:
+  - {fileID: 2100000, guid: 507fa42b7005a03418241a8869410e30, type: 2}
+  HigherWindowDetailPrefabs: []
+  RoofDetailPrefabs:
+  - {fileID: 2615149346812103184, guid: 2eac62227ba748a4a81ee5eefa5b9e37, type: 3}
+  RoofPrefab: {fileID: 742858302645888626, guid: c79054c44f9afed4f99ddf3b748d5efa,
+    type: 3}
+  HasParapet: 1
+  HasBalcony: 0
+  DoorChance: 50
+  UpperWindowChance: 0
+  GroundWindowChance: 75

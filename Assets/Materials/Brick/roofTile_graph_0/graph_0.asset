@@ -154,7 +154,7 @@ MonoBehaviour:
     type=\"0\" value=\"0\" />\n  <presetinput identifier=\"scale\" uid=\"4152958303\"
     type=\"4\" value=\"1\" />\n  <presetinput identifier=\"intensity\" uid=\"4152631693\"
     type=\"0\" value=\"0\" />\n  <presetinput identifier=\"outputcolor\" uid=\"4152628255\"
-    type=\"3\" value=\"1,1,1,1\" />\n </sbspreset>\n"
+    type=\"3\" value=\"0.518868,0.518868,0.518868,1\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
@@ -324,7 +324,7 @@ MonoBehaviour:
           GuiDescription: Control the color of the bricks
           Type: 3
           WidgetType: 3
-        Data: {x: 1, y: 1, z: 1, w: 1}
+        Data: {x: 0.5188679, y: 0.5188679, z: 0.5188679, w: 1}
         NumericalDescription:
           DefaultValue: {x: 0.946237, y: 0.471859, z: 0.263799, w: 1}
           MinValue: {x: 0, y: 0, z: 0, w: 0}

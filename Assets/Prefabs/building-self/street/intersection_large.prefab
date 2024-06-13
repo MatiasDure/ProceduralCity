@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f6514139d7308ef4fb5e8a552c926582, type: 2}
+  - {fileID: 2100000, guid: c241dcfac5fb9b64aa81b439811ac914, type: 2}
   - {fileID: 4874126678125670354, guid: beef08b0e2f3e8947aab3384134e20b5, type: 3}
   - {fileID: 2100000, guid: 359cbf6d08adc4d4b85574542bb03289, type: 2}
   m_StaticBatchInfo:
@@ -210,7 +210,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f6514139d7308ef4fb5e8a552c926582, type: 2}
+  - {fileID: 2100000, guid: c241dcfac5fb9b64aa81b439811ac914, type: 2}
   - {fileID: 4874126678125670354, guid: beef08b0e2f3e8947aab3384134e20b5, type: 3}
   - {fileID: 2100000, guid: 359cbf6d08adc4d4b85574542bb03289, type: 2}
   m_StaticBatchInfo:
@@ -295,7 +295,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f6514139d7308ef4fb5e8a552c926582, type: 2}
+  - {fileID: 2100000, guid: c241dcfac5fb9b64aa81b439811ac914, type: 2}
   - {fileID: 4874126678125670354, guid: beef08b0e2f3e8947aab3384134e20b5, type: 3}
   - {fileID: 2100000, guid: 359cbf6d08adc4d4b85574542bb03289, type: 2}
   m_StaticBatchInfo:
@@ -412,7 +412,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f6514139d7308ef4fb5e8a552c926582, type: 2}
+  - {fileID: 2100000, guid: c241dcfac5fb9b64aa81b439811ac914, type: 2}
   - {fileID: 4874126678125670354, guid: beef08b0e2f3e8947aab3384134e20b5, type: 3}
   - {fileID: 2100000, guid: 359cbf6d08adc4d4b85574542bb03289, type: 2}
   m_StaticBatchInfo:
@@ -521,6 +521,10 @@ PrefabInstance:
     - target: {fileID: 1174444206393500, guid: ee7671ca6426a8545b456546f210795f, type: 3}
       propertyPath: m_Name
       value: Sign_Crossroad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174444206393500, guid: ee7671ca6426a8545b456546f210795f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4752602983544194, guid: ee7671ca6426a8545b456546f210795f, type: 3}
       propertyPath: m_LocalScale.x
@@ -674,7 +678,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f6514139d7308ef4fb5e8a552c926582, type: 2}
+      objectReference: {fileID: 2100000, guid: c241dcfac5fb9b64aa81b439811ac914, type: 2}
     - target: {fileID: 6088812860881549616, guid: fb237ec9a4f05c74bb988883ac18727a,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -773,6 +777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sign_Crossroad (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1174444206393500, guid: ee7671ca6426a8545b456546f210795f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4752602983544194, guid: ee7671ca6426a8545b456546f210795f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -861,6 +869,10 @@ PrefabInstance:
     - target: {fileID: 1174444206393500, guid: ee7671ca6426a8545b456546f210795f, type: 3}
       propertyPath: m_Name
       value: Sign_Crossroad (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174444206393500, guid: ee7671ca6426a8545b456546f210795f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4752602983544194, guid: ee7671ca6426a8545b456546f210795f, type: 3}
       propertyPath: m_LocalScale.x
@@ -951,7 +963,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f6514139d7308ef4fb5e8a552c926582, type: 2}
+      objectReference: {fileID: 2100000, guid: c241dcfac5fb9b64aa81b439811ac914, type: 2}
     - target: {fileID: 6088812860881549616, guid: fb237ec9a4f05c74bb988883ac18727a,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1239,6 +1251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sign_Crossroad (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1174444206393500, guid: ee7671ca6426a8545b456546f210795f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4752602983544194, guid: ee7671ca6426a8545b456546f210795f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1328,7 +1344,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f6514139d7308ef4fb5e8a552c926582, type: 2}
+      objectReference: {fileID: 2100000, guid: c241dcfac5fb9b64aa81b439811ac914, type: 2}
     - target: {fileID: 6088812860881549616, guid: fb237ec9a4f05c74bb988883ac18727a,
         type: 3}
       propertyPath: m_LocalScale.x

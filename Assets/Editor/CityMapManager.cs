@@ -48,9 +48,11 @@ public class CityMapManager : EditorWindow
             Block newBlock = ScriptableObject.CreateInstance<Block>();
             newBlock.Size = new Vector2Int(4, 4);
             newBlock.Position = new Vector3Int(1, 1, 1);
-            AssetDatabase.CreateAsset(newBlock, string.Format("{0}/{1}.asset",BLOCK_PATH, Directory.GetFiles(BLOCK_PATH).Length));
+            AssetDatabase.CreateAsset(newBlock, string.Format("{0}/Block_{1}.asset",BLOCK_PATH, ExtractBiggestValue()));
             AssetDatabase.SaveAssets();
             _cityBlockData.Blocks.Add(newBlock);
+            EditorUtility.SetDirty(newBlock);
+            EditorUtility.SetDirty(_cityBlockData);
         }
 
         _scrollPosition = EditorGUILayout.BeginScrollView(_scrollPosition);
@@ -65,11 +67,29 @@ public class CityMapManager : EditorWindow
 
     }
 
+    private int ExtractBiggestValue()
+    {
+        string[] blocksCreated = Directory.GetFiles(BLOCK_PATH);
+        int biggestValue = 0;
+
+        foreach(string block in blocksCreated)
+        {
+            string valueString = block.Split("_")[1].Split(".")[0];
+
+            int.TryParse(valueString, out int value);
+            
+            biggestValue = value > biggestValue ? value : biggestValue;
+        }
+
+        return ++biggestValue;
+    }
+
     private int AddDeleteBtn(int index)
     {
         if (GUILayout.Button("Delete", GUILayout.Width(60)))
         {
             _cityBlockData.Blocks.RemoveAt(index);
+            EditorUtility.SetDirty(_cityBlockData);
             return --index;
         }
 
@@ -78,19 +98,33 @@ public class CityMapManager : EditorWindow
 
     private void DrawBlockGUI(Block block)
     {
+        EditorGUI.BeginChangeCheck();
         EditorGUILayout.BeginVertical(EditorStyles.helpBox);
-
         EditorGUILayout.LabelField("Block", EditorStyles.boldLabel);
+
+        Vector2Int oldSize = block.Size;
+        Vector3Int oldPosition = block.Position;
+        Vector3 oldRotation = block.Rotation;
+        BuildingType oldType = block.TypeBuiding;
+        int oldBuildingCount = block.BuildingCount;
 
         block.Size = EditorGUILayout.Vector2IntField("Size: ", block.Size);
         block.Position = EditorGUILayout.Vector3IntField("Position: ", block.Position);
         block.Rotation = EditorGUILayout.Vector3Field("Rotation: ", block.Rotation);
+        block.TypeBuiding = (BuildingType)EditorGUILayout.EnumPopup("Building Type", block.TypeBuiding);
+        int maxAmountOfBuildings = block.Size.x * block.Size.y;
+        block.BuildingCount = Mathf.Clamp(EditorGUILayout.IntField("Buildings amount", block.BuildingCount), 1, maxAmountOfBuildings);
 
-        //max amount of buildings if all buildings are 1 x 1
-        int maxAmountOfBuildings = block.Size.x * block.Size.y; 
-        block.BuildingCount = Mathf.Clamp(EditorGUILayout.IntField("Buldings amount", block.BuildingCount), 1, maxAmountOfBuildings);
-        
         EditorGUILayout.EndVertical();
+
+        if (EditorGUI.EndChangeCheck())
+        {
+            if (block.Size != oldSize || block.Position != oldPosition || block.Rotation != oldRotation ||
+                block.TypeBuiding != oldType || block.BuildingCount != oldBuildingCount)
+            {
+                EditorUtility.SetDirty(block);
+            }
+        }
     }
 
     private void OnSceneGUI(SceneView sceneView)
@@ -100,6 +134,7 @@ public class CityMapManager : EditorWindow
         Rect toggleRotationBtn = new Rect(60, 60, 110, 40);
         Rect toggleTranslationBtn = new Rect(60, 110, 110, 40);
         Rect toggleBlocks = new Rect(60, 160, 110, 40);
+        Rect saveAsstes = new Rect(60, 210, 110, 40);
 
         if (GUI.Button(generateBtn, "Generate"))
         {

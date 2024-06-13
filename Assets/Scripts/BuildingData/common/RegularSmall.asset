@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde17a2178847f5458f59935321656a1, type: 3}
+  m_Name: RegularSmall
+  m_EditorClassIdentifier: 
+  TypeBuilding: 1
+  StoriesRange: {x: 2, y: 3}
+  GroundWindowsPrefabs:
+  - {fileID: 1740441712364328160, guid: beb085cbe82d873469adeae705b842ed, type: 3}
+  HigherWindowsPrefabs:
+  - {fileID: 887696978189595969, guid: 5d33a3b8ee2a80943a329dbb9599cc25, type: 3}
+  GroundDoorPrefabs:
+  - {fileID: 126932684079800419, guid: 4cd06900c659cf74583ef6e43d18ff4d, type: 3}
+  BalconyDoorPrefabs:
+  - {fileID: 3405983765923899303, guid: 7cc99400f869f3543a69c83ac24da615, type: 3}
+  BuildingMaterial:
+  - {fileID: 2100000, guid: 507fa42b7005a03418241a8869410e30, type: 2}
+  HigherDoorDetailPrefabs:
+  - {fileID: 8421946497616651930, guid: ca611e620b6f1f34e950bdb08699f17b, type: 3}
+  WindowDetailPrefabs:
+  - {fileID: 2271447540849927989, guid: bafcea9cee5f2694a930442888f06b80, type: 3}
+  RoofDetailPrefabs:
+  - {fileID: 9214042257115185901, guid: 130733a4df8e6774badbd4f176240b70, type: 3}
+  - {fileID: 6293192864024778011, guid: 917602220bc17374b90138e89d7727bb, type: 3}
+  - {fileID: 493427529843848315, guid: 2a4aea911b8094149bd7adc96f80c63c, type: 3}
+  - {fileID: 1215398968587616764, guid: 0efee4272a30dfd478184fd419a32636, type: 3}
+  - {fileID: 2615149346812103184, guid: 2eac62227ba748a4a81ee5eefa5b9e37, type: 3}
+  RoofPrefab: {fileID: 742858302645888626, guid: c79054c44f9afed4f99ddf3b748d5efa,
+    type: 3}
+  HasParapet: 1
+  HasBalcony: 1
+  DoorChance: 30
+  UpperWindowChance: 75
+  GroundWindowChance: 40

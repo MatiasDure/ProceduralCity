@@ -148,13 +148,12 @@ MonoBehaviour:
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://brick\" label=\"\" >\n  <presetinput
     identifier=\"$outputsize\" uid=\"2483536950\" type=\"8\" value=\"10,10\" />\n 
-    <presetinput identifier=\"bricks_amount\" uid=\"4152775279\" type=\"8\" value=\"2,3\"
+    <presetinput identifier=\"bricks_amount\" uid=\"4152775279\" type=\"8\" value=\"2,2\"
     />\n  <presetinput identifier=\"brick_cracks\" uid=\"4152941571\" type=\"4\"
     value=\"1\" />\n  <presetinput identifier=\"opacitymult\" uid=\"4152941417\"
-    type=\"0\" value=\"0.25\" />\n  <presetinput identifier=\"scale\" uid=\"4152958303\"
-    type=\"4\" value=\"12\" />\n  <presetinput identifier=\"intensity\" uid=\"4152631693\"
-    type=\"0\" value=\"0.2\" />\n  <presetinput identifier=\"outputcolor\" uid=\"4152628255\"
-    type=\"3\" value=\"1,1,1,1\" />\n </sbspreset>\n"
+    type=\"0\" value=\"0.27\" />\n  <presetinput identifier=\"intensity\" uid=\"4152631693\"
+    type=\"0\" value=\"1.492\" />\n  <presetinput identifier=\"outputcolor\" uid=\"4152628255\"
+    type=\"3\" value=\"0.679245,0.655215,0.567106,1\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
@@ -221,7 +220,7 @@ MonoBehaviour:
           GuiDescription: The amount of bricks you want on the x and y axis
           Type: 5
           WidgetType: 1
-        Data: {x: 2, y: 3}
+        Data: {x: 2, y: 2}
         NumericalDescription:
           DefaultValue: {x: 4, y: 8}
           MinValue: {x: 1, y: 1}
@@ -262,7 +261,7 @@ MonoBehaviour:
           GuiDescription: The contrast of the bricks
           Type: 0
           WidgetType: 1
-        Data: 0.25
+        Data: 0.27
         NumericalDescription:
           DefaultValue: 0.5
           MinValue: 0
@@ -282,7 +281,7 @@ MonoBehaviour:
           GuiDescription: Add different deterioration to the brick. 1 = no deterioration
           Type: 4
           WidgetType: 1
-        Data: 12
+        Data: 11
         NumericalDescription:
           DefaultValue: 11
           MinValue: 1
@@ -304,7 +303,7 @@ MonoBehaviour:
           GuiDescription: Amount of detail on the bricks
           Type: 0
           WidgetType: 1
-        Data: 0.2
+        Data: 1.492
         NumericalDescription:
           DefaultValue: 0.08
           MinValue: 0
@@ -324,7 +323,7 @@ MonoBehaviour:
           GuiDescription: Control the color of the bricks
           Type: 3
           WidgetType: 3
-        Data: {x: 1, y: 1, z: 1, w: 1}
+        Data: {x: 0.6792453, y: 0.6552154, z: 0.5671057, w: 1}
         NumericalDescription:
           DefaultValue: {x: 0.946237, y: 0.471859, z: 0.263799, w: 1}
           MinValue: {x: 0, y: 0, z: 0, w: 0}

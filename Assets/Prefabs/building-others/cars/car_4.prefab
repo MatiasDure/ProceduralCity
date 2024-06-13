@@ -10,11 +10,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100008, guid: 442255f864e16934790fbb3b49639885, type: 3}
       propertyPath: m_Name
-      value: police_car
+      value: car_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 442255f864e16934790fbb3b49639885, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 442255f864e16934790fbb3b49639885, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 442255f864e16934790fbb3b49639885, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 442255f864e16934790fbb3b49639885, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.562607
+      value: 19.176193
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 442255f864e16934790fbb3b49639885, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 442255f864e16934790fbb3b49639885, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.763061
+      value: 7.24137
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 442255f864e16934790fbb3b49639885, type: 3}
       propertyPath: m_LocalRotation.w

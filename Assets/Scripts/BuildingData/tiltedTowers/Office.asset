@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde17a2178847f5458f59935321656a1, type: 3}
+  m_Name: Office
+  m_EditorClassIdentifier: 
+  TypeBuilding: 2
+  StoriesRange: {x: 1, y: 10}
+  GroundWindowsPrefabs:
+  - {fileID: 314665895380045837, guid: 98a62d934925c854a94650d03c6fc753, type: 3}
+  HigherWindowsPrefabs:
+  - {fileID: 6533845692597655093, guid: b3a645d52c8b81c47bc48cfbea0683b7, type: 3}
+  GroundDoorPrefabs:
+  - {fileID: 6990089520606281290, guid: 3a19974d31911334aa070f24a104a348, type: 3}
+  BalconyDoorPrefabs: []
+  BuildingMaterial:
+  - {fileID: 2100000, guid: 8d284cbd823e8444991d87dbb389585d, type: 2}
+  HigherWindowDetailPrefabs: []
+  RoofDetailPrefabs:
+  - {fileID: 9214042257115185901, guid: 130733a4df8e6774badbd4f176240b70, type: 3}
+  - {fileID: 6293192864024778011, guid: 917602220bc17374b90138e89d7727bb, type: 3}
+  - {fileID: 493427529843848315, guid: 2a4aea911b8094149bd7adc96f80c63c, type: 3}
+  - {fileID: 1215398968587616764, guid: 0efee4272a30dfd478184fd419a32636, type: 3}
+  - {fileID: 2615149346812103184, guid: 2eac62227ba748a4a81ee5eefa5b9e37, type: 3}
+  RoofPrefab: {fileID: 742858302645888626, guid: c79054c44f9afed4f99ddf3b748d5efa,
+    type: 3}
+  HasParapet: 1
+  HasBalcony: 0
+  DoorChance: 30
+  UpperWindowChance: 30
+  GroundWindowChance: 50

@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+using System;
 
+[Serializable]
 public class Block : ScriptableObject
 {
+    public BuildingType TypeBuiding;
     public Vector2Int Size;
     public Vector3Int Position;
     public Vector3 Rotation;
     public int BuildingCount;
 }
 
+[Serializable]
 public class BuildingLot
 {
     public Vector2Int Size;

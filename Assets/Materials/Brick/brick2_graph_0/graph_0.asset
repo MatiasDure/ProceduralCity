@@ -151,9 +151,9 @@ MonoBehaviour:
     <presetinput identifier=\"bricks_amount\" uid=\"4152775279\" type=\"8\" value=\"2,4\"
     />\n  <presetinput identifier=\"brick_cracks\" uid=\"4152941571\" type=\"4\"
     value=\"1\" />\n  <presetinput identifier=\"opacitymult\" uid=\"4152941417\"
-    type=\"0\" value=\"0.633\" />\n  <presetinput identifier=\"scale\" uid=\"4152958303\"
+    type=\"0\" value=\"0.351\" />\n  <presetinput identifier=\"scale\" uid=\"4152958303\"
     type=\"4\" value=\"5\" />\n  <presetinput identifier=\"outputcolor\" uid=\"4152628255\"
-    type=\"3\" value=\"1,0.721698,0.721698,1\" />\n </sbspreset>\n"
+    type=\"3\" value=\"0.943396,0.868237,0.654147,1\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
@@ -261,7 +261,7 @@ MonoBehaviour:
           GuiDescription: The contrast of the bricks
           Type: 0
           WidgetType: 1
-        Data: 0.633
+        Data: 0.351
         NumericalDescription:
           DefaultValue: 0.5
           MinValue: 0
@@ -323,7 +323,7 @@ MonoBehaviour:
           GuiDescription: Control the color of the bricks
           Type: 3
           WidgetType: 3
-        Data: {x: 1, y: 0.7216981, z: 0.7216981, w: 1}
+        Data: {x: 0.9433962, y: 0.86823654, z: 0.6541474, w: 1}
         NumericalDescription:
           DefaultValue: {x: 0.946237, y: 0.471859, z: 0.263799, w: 1}
           MinValue: {x: 0, y: 0, z: 0, w: 0}

@@ -20,16 +20,23 @@ public class CityGenerator : Editor
 
         foreach(Block block in cityBlocks)
         {
-            blockList.Add(new BuildingBlock(new Vector3Int(block.Position.x, 0, block.Position.z), block.Rotation));
-            List<BuildingLot> temp = new List<BuildingLot>();
-            temp.AddRange(GenerateBlock(block));
-            for(int i = 0; i < temp.Count; i++)
+            BuildingBlock newBuildingBlock = new BuildingBlock(new Vector3Int(block.Position.x, 0, block.Position.z), block.Rotation);
+            List<BuildingLot> temporaryBuildingBlocks = new List<BuildingLot>();
+            temporaryBuildingBlocks.AddRange(GenerateBlock(block));
+            foreach(BuildingLot buildingBlock in temporaryBuildingBlocks)
             {
-                blockList[blockList.Count - 1].Buildings.Add(BuildingGenerator.Generate(temp[i].Size, temp[i].Position));
+                newBuildingBlock.Buildings.Add(BuildingGenerator.Generate(buildingBlock.Size, buildingBlock.Position, block.TypeBuiding));
+                //blockList[blockList.Count - 1].Buildings.Add(BuildingGenerator.Generate(buildingBlock.Size, buildingBlock.Position));
             }
+            blockList.Add(newBuildingBlock);
+            //blockList.Add(new BuildingBlock(new Vector3Int(block.Position.x, 0, block.Position.z), block.Rotation));
+            //for (int i = 0; i < temporaryBuildingBlocks.Count; i++)
+            //{
+            //    blockList[blockList.Count - 1].Buildings.Add(BuildingGenerator.Generate(temporaryBuildingBlocks[i].Size, temporaryBuildingBlocks[i].Position));
+            //}
         }
 
-        foreach(BuildingBlock block in blockList)
+        foreach (BuildingBlock block in blockList)
         {
             cityBuildingList.BuildingBlocks.Add(block);
         }

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde17a2178847f5458f59935321656a1, type: 3}
+  m_Name: OutsideScopeBuilding
+  m_EditorClassIdentifier: 
+  TypeBuilding: 10
+  StoriesRange: {x: 4, y: 8}
+  GroundWindowsPrefabs: []
+  HigherWindowsPrefabs:
+  - {fileID: 1037344377652125243, guid: 9563d0ba11f173e469af91c7fbdb1988, type: 3}
+  GroundDoorPrefabs: []
+  BalconyDoorPrefabs: []
+  BuildingMaterial:
+  - {fileID: 2100000, guid: 8851df8c8a02e5b45a404d979fcb592a, type: 2}
+  - {fileID: 2100000, guid: f6514139d7308ef4fb5e8a552c926582, type: 2}
+  - {fileID: 2100000, guid: fde3314a9544b0846872283c4c3c0fb3, type: 2}
+  - {fileID: 2100000, guid: ea1b2f034f5b70a408fc456db09f62ca, type: 2}
+  HigherDoorDetailPrefabs: []
+  WindowDetailPrefabs: []
+  RoofDetailPrefabs:
+  - {fileID: 9214042257115185901, guid: 130733a4df8e6774badbd4f176240b70, type: 3}
+  - {fileID: 6293192864024778011, guid: 917602220bc17374b90138e89d7727bb, type: 3}
+  - {fileID: 493427529843848315, guid: 2a4aea911b8094149bd7adc96f80c63c, type: 3}
+  RoofPrefab: {fileID: 742858302645888626, guid: c79054c44f9afed4f99ddf3b748d5efa,
+    type: 3}
+  HasParapet: 1
+  DoorChance: 0
+  UpperWindowChance: 100
+  GroundWindowChance: 0
+  WindowDetailsChance: 0
